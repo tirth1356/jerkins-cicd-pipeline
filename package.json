@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "this is a nodejs demo app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --testMatch='**/_test_/**/*.spec.js'",
+    "build": "echo Build completed successfully"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tirth1356/ci-cd-pipeline.git"
+  },
+  "keywords": ["node", "nodejs", "express", "ci-cd", "docker", "github-actions"],
+  "author": "tirth1356",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
